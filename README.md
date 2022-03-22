@@ -4,6 +4,8 @@
 # checkdataanme
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/thinkr-n2-mars2022/checkdataanme/workflows/R-CMD-check/badge.svg)](https://github.com/thinkr-n2-mars2022/checkdataanme/actions)
 <!-- badges: end -->
 
 The goal of checkdataanme is to …
