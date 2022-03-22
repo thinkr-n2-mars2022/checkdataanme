@@ -4,18 +4,18 @@
 # checkdataanme
 
 <!-- badges: start -->
-
-[![R-CMD-check](https://github.com/thinkr-n2-mars2022/checkdataanme/workflows/R-CMD-check/badge.svg)](https://github.com/thinkr-n2-mars2022/checkdataanme/actions)
 <!-- badges: end -->
 
 The goal of checkdataanme is to …
 
 ## Installation
 
-You can install the development version of checkdataanme like so:
+You can install the development version of checkdataanme from
+[GitHub](https://github.com/) with:
 
 ``` r
-# FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
+# install.packages("devtools")
+devtools::install_github("thinkr-n2-mars2022/checkdataanme")
 ```
 
 ## Example
