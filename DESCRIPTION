@@ -8,8 +8,6 @@ Authors@R: c(
 Description: Create a package following the exercice description on slide
     372.
 License: file LICENSE
-Imports: 
-    stats
 Suggests: 
     knitr,
     rmarkdown,

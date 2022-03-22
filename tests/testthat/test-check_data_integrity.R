@@ -4,6 +4,6 @@ test_that("check_data_integrity works properly and show error if needed", {
   datafile      <- system.file("nyc_squirrels_sample.csv", package = "checkdataanme")
   nyc_squirrels <- read.csv(datafile)
   expect_message(check_data_integrity(nyc_squirrels), "OK")
-  nyc_squirrels$primary_fur_color <- '+'
+  nyc_squirrels$primary_fur_color[1] <- '+'
   expect_message(check_data_integrity(nyc_squirrels), "Not all values are color")
 })
